@@ -1,0 +1,171 @@
+* {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+nav {
+  max-width: 960px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#basic-portfolio-header {
+  border-bottom: 4px solid #4aaaa5;
+  margin: 0 auto 0 auto;
+  padding: 0 0;
+  background-color:#ccc;
+  color: darkslateblue
+}
+
+#basic-portfolio-header-nav {
+  max-width: 960px;
+}
+
+#meat-n-potatoes {
+  max-width: 960px;
+  margin: 8px auto 8px auto;
+  padding: 0 0;
+  background-color: #ccc;
+}
+
+#basic-portfolio-footer {
+  border-top: 4px solid #4aaaa5;
+  margin: 0 auto 0 auto;
+  padding: 2px 0;
+  font-size: 10px;
+  background-color: darkslateblue;
+  color: #eee;
+}
+
+/* Put the text of the footer in the center */
+footer p {
+  font-size: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* use inside a meat-n-potatoes section */
+#request-contact-form {
+  /* display: flex; */
+  /* flex-direction: column; */
+  display: block;
+  margin: 0 0;
+  padding: 20px 20px;
+}
+
+#portfolio-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.portfolio-img-size {
+  width: 250px; 
+  height: 300px;
+}
+
+.one-line-input {
+  width: 90%;
+}
+
+.gt1-line-input {
+  width: 90%;
+  height: 120px;
+}
+
+.form-submit {
+  background-color: darkslateblue;
+  color: #ccc
+}
+
+#my-name {
+  float: left;
+  margin: 0 0;
+  padding: 10px 20px;
+  font-size: 32px;
+  font-weight: bold;
+  background-color: darkslateblue;
+  color: #ccc;
+}
+
+.header-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-link {
+  display: block;
+  margin: 0 10px;
+  /* padding: 0 10px; this leaves the white space between link clickable */
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: darkslateblue;
+}
+
+/* a.hover { */
+/* background-color: brown; */
+/* } */
+
+.page-title {
+  margin: 0;
+  padding: 20px 10px 5px 20px;
+  font-size: 28px;
+  font-weight: bold;
+  color: darkslateblue;
+}
+
+#about-me {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+#about-me-pic-prime {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#about-me-pic-secondary {
+  float: right;
+}
+
+#portfolio-image {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  margin: 25px auto 25px auto;
+} 
+
+#pic-label {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  padding: 4px 0;
+  font-size: 14px;
+  text-align: center;
+  background-color: darkslateblue;
+  color: #ccc;
+}
