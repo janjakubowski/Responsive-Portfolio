@@ -12,6 +12,10 @@ body, html {
   padding: 0;
 }
 
+body {
+  background-image: url(./../images/mosaic.png);
+}
+
 p {
   font-size: 20px;
 }
@@ -125,9 +129,10 @@ footer p {
   color: darkslateblue;
 }
 
-/* a.hover { */
-/* background-color: brown; */
-/* } */
+a:hover {
+  background-color: darkslateblue;
+  color: #ccc;
+}
 
 .page-title {
   margin: 0;
@@ -135,6 +140,7 @@ footer p {
   font-size: 28px;
   font-weight: bold;
   color: darkslateblue;
+  border-bottom: 2px solid darkslateblue;
 }
 
 #about-me {
@@ -168,4 +174,102 @@ footer p {
   text-align: center;
   background-color: darkslateblue;
   color: #ccc;
+}
+
+/* *************************************
+*********** 980 - large tab  ***********
+************************************* */
+@media screen and (max-width: 980px) {
+
+  body {
+    max-width: 980px;
+  }
+
+  #meat-n-potatoes {
+    max-width: 75%;
+    margin: 10px 12px;
+  }
+
+  /* For testing which screen size I'm on  */
+  /* #about-me,
+  #request-contact-form,
+  #portfolio-container 
+  {
+    background-color: blue;
+  } */
+
+}
+
+/* *************************************
+*********** 768 - tablet     ***********
+************************************* */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lawngreen;
+    max-width: 768px;
+  }
+  
+  .page-title {
+    font-size: 20px;
+  } 
+
+  #meat-n-potatoes {
+    max-width: 100%;
+    margin: 10px 12px;
+  }
+
+  /* For testing which screen size I'm on  */
+  /* #about-me,
+  #request-contact-form,
+  #portfolio-container 
+  {
+    background-color: lawngreen;
+  } */
+}
+
+/* *************************************
+*********** 640 - Smartphone ***********
+************************************* */
+
+@media screen and (max-width: 640px) {
+
+  #my-name {
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: inline;
+  }
+  nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 90%;
+    font-weight: bold;
+    padding: 4px 3px;
+  }
+  
+  .header-links {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .page-title {
+      font-size: 18px;
+  }
+
+  #meat-n-potatoes {
+    max-width: 100%;
+    margin: 5px 5px;
+  }
+
+  /* For testing which screen size I'm on  */
+  /* #about-me,
+  #request-contact-form,
+  #portfolio-container 
+  {
+    background-color: orangered;
+  } */
 }
