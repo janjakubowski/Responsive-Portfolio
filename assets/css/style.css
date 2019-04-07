@@ -266,10 +266,10 @@ a:hover {
   }
 
   /* For testing which screen size I'm on  */
-  /* #about-me,
+  #about-me,
   #request-contact-form,
   #portfolio-container 
   {
     background-color: orangered;
-  } */
+  }
 }
